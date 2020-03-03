@@ -1,0 +1,30 @@
+{
+  "name": "vuesax-datatables",
+  "version": "1.0.0",
+  "description": "Vuesax and datatables.net integration example",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve --port=8082 --host=0.0.0.0",
+    "build": "vue-cli-service build --mode production",
+    "lint": "vue-cli-service lint"
+  },
+  "author": "Thitipong Jampajeen",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "datatables.net": "^1.10.20",
+    "material-icons": "^0.3.1",
+    "vue": "^2.6.11",
+    "vuesax": "^3.11.13"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "node-sass": "^4.9.0",
+    "purgecss": "^1.1.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
